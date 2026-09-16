@@ -1,0 +1,226 @@
+ /* HOME PAGE */
+ 
+ /* Page background and general text */
+        body {
+            background-color:#360033 ;
+            font-family: Arial, sans-serif;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color:#0b8793;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        /* Main profile picture */
+        header img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+
+        /* Main title */
+        h1 {
+            font-size: 35px;
+            margin-top: 15px;
+        }
+
+        /* Section headings */
+        h2 {
+            color: #075985;
+            border-bottom: 2px solid #38bdf8;
+            padding-bottom: 5px;
+        }
+
+        /* Main content */
+        main {
+            background-color: white;
+            width: 85%;
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        /* About Me image */
+        main img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            float: right;
+            margin-left: 20px;
+            border-radius: 10px;
+        }
+
+        /* Paragraphs */
+        p {
+            font-size: 16px;
+        }
+
+        /* Information list */
+        ul {
+            background-color: #f0f9ff;
+            padding: 20px 40px;
+            border-left: 5px solid #0284c7;
+            border-radius: 5px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        /* Education link */
+        .education-link {
+            display: inline-block;
+            background-color: #0284c7;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            margin: 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Link hover effect */
+        .education-link:hover {
+            background-color: #075985;
+        }
+
+        /* Bottom images */
+        .bottom-images {
+            text-align: center;
+            margin: 30px;
+        }
+
+        .bottom-images img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 10px;
+            border: 4px solid #38bdf8;
+        }
+
+        /* Horizontal lines */
+        hr {
+            border: 0;
+            height: 2px;
+            background-color: #38bdf8;
+        }
+/* EDUCATION BACKGROUND */
+ body {
+        background: linear-gradient(to right, #075985, #eaf4f4);
+    }
+
+/*Gallery */
+ /* BODY
+           This gives the entire page a background colour */
+        body {
+            background-color: #59CDE9;
+            font-family: Arial, sans-serif;
+            color: #0A2A88;
+            margin: 0;
+        }
+
+        /* HEADER
+           This styles the top heading area */
+        header {
+            background-color: #12355b;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        /* MAIN HEADING */
+        h1 {
+            margin: 10px;
+        }
+
+        /* INTRODUCTION
+           This styles the welcome message */
+        .intro {
+            text-align: center;
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        /* GALLERY TABLE
+           This controls the table containing the pictures */
+        table {
+            width: 90%;
+            margin: 30px auto;
+            background-color:#DCFFBD;
+            color:#A8CECF;
+            border: 2px solid #12355b;
+            border-spacing: 20px;
+        }
+
+        /* TABLE CELLS */
+        td {
+            text-align: center;
+            padding: 15px;
+        }
+
+        /* GALLERY IMAGES
+           This controls the size and appearance of the pictures */
+        .gallery-image {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 3px solid #12355b;
+        }
+
+        /* HOVER EFFECT
+           The image becomes slightly bigger when the mouse is placed
+           over it */
+        .gallery-image:hover {
+            width: 190px;
+            height: 190px;
+        }
+
+        /* BACK TO HOME LINK */
+        .back-home {
+            text-align: center;
+            margin: 30px;
+        }
+
+        .back-home a {
+            text-decoration: none;
+            background-color: #12355b;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
+        }
+
+        /* Changes the link colour when the mouse is placed over it */
+        .back-home a:hover {
+            background-color: #1d6fa5;
+        }
+
+        /* SMALL PICTURES */
+        .small-image {
+            width: 42px;
+            height: 42px;
+            vertical-align: middle;
+            border-radius: 50%;
+        }
+
+        /* FOOTER */
+        footer {
+            background-color: #12355b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
